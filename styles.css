@@ -1,3 +1,4 @@
+
 body {
     display: flex;
     flex-direction: column;
@@ -10,8 +11,8 @@ body > div {
 }
 
 .top-container {
-    height: 20vh;
     background-color: #1F2937;
+    display: inline-block;
 }
 
 .header-container {
@@ -24,7 +25,6 @@ body > div {
 .header-logo {
     font-weight: 700;
     font-size: 24px;
-    color: #F9FAF8;
 }
 
 .header-links {
@@ -33,6 +33,54 @@ body > div {
     padding: 0;
     display: flex;
     gap: 26px;
+}
+
+.header-links,
+.top-img-placeholder,
+.main-text-subtext {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.header-logo,
+.main-text-title,
+.main-signup {
+    color: #F9FAF8;
+}
+
+.top-content {
+    margin-top: 120px;
+    margin-bottom: 90px;
+    display: flex;
+}
+
+.top-img-placeholder {
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+
+.main-text {
+    flex-basis: 50%;
+    padding-right: 45px;
+    box-sizing: border-box;
+}
+
+.main-text-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.main-signup {
+    background-color: #3882F6;
+    padding: 8px 16px;
+    border-radius: 7px;
+    width: 135px;
+    font-weight: 550;
+    font-size: 18px;
+    margin-top: 12px;
+    border-color: transparent;
 }
