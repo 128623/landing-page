@@ -2,9 +2,37 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body > div {
+    padding: 0 15vw;
 }
 
 .top-container {
     height: 20vh;
     background-color: #1F2937;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 21px;
+    align-items: baseline;
+}
+
+.header-logo {
+    font-weight: 700;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 26px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
