@@ -134,6 +134,11 @@ body > div {
     background-color: #E5E7EB;
 }
 
+.quote-text,
+.quote-src {
+    padding: 0 110px;
+}
+
 .quote-text {
     font-size: 36px;
     color: #1F2937;
