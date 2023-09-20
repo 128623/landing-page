@@ -147,3 +147,42 @@ body > div {
     align-self: flex-end;
     padding-top: 10px;
 }
+
+.signup-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-subcontainer {
+    margin: 110px 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    padding: 50px 120px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.signup-text-subtext {
+    color: #E5E7EB;
+    margin-top: 4px;
+    font-size: 18px;
+}
+
+.signup-text strong {
+    font-size: 22px;
+    color: #F9FAF8;
+}
+
+.second-signup {
+    align-self: center;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    background-color: #3882F6;
+    padding: 8px 24px;
+    border-radius: 7px;
+    width: 140px;
+    font-weight: 550;
+    font-size: 18px;
+}
