@@ -60,6 +60,8 @@ body > div {
     align-items: center;
     justify-content: center;
     background-color: gray;
+    box-sizing: border-box;
+    padding: 10px;
 }
 
 .main-text {
@@ -120,4 +122,28 @@ body > div {
     text-align: center;
     font-size: 18px;
     color: #1F2937;
+}
+
+.quote-container {
+    padding-top: 140px;
+    padding-bottom: 98px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quote-src {
+    font-weight: 700;
+    font-size: 24px;
+    align-self: flex-end;
+    padding-top: 10px;
 }
